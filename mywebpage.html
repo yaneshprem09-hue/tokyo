@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tokyo Revengers Fan Site</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #0f0f0f;
+      color: #f4f4f4;
+    }
+
+    header {
+      background: linear-gradient(90deg, #e50909, #111);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1c1c1c;
+      flex-wrap: wrap;
+    } 
+    
+
+    nav a {
+      color: #f4f4f4;
+      text-decoration: none;
+      padding: 1rem;
+      transition: background 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #2609e5;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h2 {
+      border-left: 5px solid #e50914;
+      padding-left: 10px;
+      color: #e50914;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .character-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .character-card {
+      background: #1a1a1a;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+
+    .character-card:hover {
+      transform: scale(1.05);
+    }
+
+    .character-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .character-card h3 {
+      margin: 0.5rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #111;
+      color: #999;
+    }
+
+    footer a {
+      color: #e50914;
+      text-decoration: none;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tokyo Revengers</h1>
+    <p>The ultimate fan hub for the time-traveling gang saga!</p>
+  </header>
+
+  <nav>
+    <a href="#story">Story</a>
+    <a href="#characters">Characters</a>
+    <a href="#gallery">Gallery</a>
+  </nav>
+
+  <section id="story">
+    <h2>Story</h2>
+    <p>
+      *Tokyo Revengers* follows Takemichi Hanagaki, a young man who discovers
+      he can travel back in time to his teenage years. After learning that his
+      ex-girlfriend Hinata and her brother are killed by the Tokyo Manji Gang,
+      Takemichi vows to rewrite the past and save them. Along the way, he’s
+      pulled into the dangerous and emotional world of Tokyo’s delinquents.
+    </p>
+  </section>
+
+  <section id="characters">
+    <h2>Main Characters</h2>
+    <div class="character-grid">
+      <div class="character-card">
+        <img src="https://images3.alphacoders.com/117/thumb-1920-1171024.jpg" alt="Takemichi Hanagaki" />
+        <h3>Takemichi Hanagaki</h3>
+      </div>
+      <div class="character-card">
+        <img src="https://i.pinimg.com/736x/bd/c3/94/bdc394b707664f4bc8cc6b130d0d6494.jpg" alt="Mikey" />
+        <h3>Manjiro “Mikey” Sano</h3>
+      </div>
+      <div class="character-card">
+        <img src="https://i.pinimg.com/736x/8d/27/98/8d27986bef4fddd0864eb8c6f6bdb2f4.jpg" alt="Draken" />
+        <h3>Ken “Draken” Ryuguji</h3>
+      </div>
+      <div class="character-card">
+        <img src="https://wallpapers.com/images/hd/hinata-tachibana-with-takemichi-tokyo-revengers-manga-s0vuxfgpu5m3zw6g.jpg" alt="Hinata Tachibana" />
+        <h3>Hinata Tachibana</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>
+      Iconic moments and unforgettable scenes from <strong>Tokyo Revengers</strong>.
+    </p>
+    <div class="gallery-grid">
+      <img src="https://i.imgur.com/6vQ9wFj.jpg" alt="Tokyo Revengers Scene 1">
+      <img src="https://i.imgur.com/4nWtK2L.jpg" alt="Tokyo Revengers Scene 2">
+      <img src="https://i.imgur.com/3Ew8ZQG.jpg" alt="Tokyo Revengers Scene 3">
+      <img src="https://a.storyblok.com/f/178900/750x537/e5215028b7/959fcdbe46d4f4288bd75b630dd0cd5c1608120049_main.jpg/m/filters%3Aquality%2895%29format%28webp%29" alt="Tokyo Revengers Scene 4">
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Fan site made with ❤️ by anime lovers. All images belong to their
+      respective owners. | <a href="#">Back to top</a>
+    </p>
+  </footer>
+</body>
+</html>
